@@ -1,0 +1,7 @@
+resource "aws_s3_bucket" "mys3bucket" {
+ bucket = "terraform-myradheyzunjurbucket" 
+ tags = {
+  Name = "terraform-myradheyzunjurbucket"
+  Environment = "Dev"
+}
+}
